@@ -1,0 +1,52 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+header{
+    color:green;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 9px solid lightblue;
+}
+header>*{
+    margin: 0px 40px;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    /* border:2px solid black    */
+}
+section{
+    display: flex;
+    flex-direction: column;
+    height: 210vh;
+    justify-content: space-between;
+}
+section>*{
+    height: 90%;
+    margin-top:30px
+
+}
+
+button{
+    border: 0px;
+    /* background-color: inherit; */
+    cursor: pointer;
+}
+.loading{
+    position: absolute;
+    font-size: 50px;
+    color: green;
+    top:50vh;
+    left:40vw;
+
+}
